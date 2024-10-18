@@ -1,0 +1,128 @@
+.html {
+  background-color: #1e1e1f;
+}
+.navbar {
+  background-color: #1e1e1f;
+  /* background-color: bg-dark; */
+  display: flex;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.navbar-brand {
+  color: orange;
+  /* background: orange; */
+  margin-left: 5rem;
+}
+/* .container-fluid {
+} */
+
+.nav-item {
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+}
+.img-fluid {
+  border-radius: 5px;
+  /* margin-right: 6rem; */
+  height: 550px;
+  width: 550px;
+}
+.container-fluid {
+  background-color: #1e1e1f;
+  align-items: center;
+}
+
+.text_container {
+  height: auto;
+  width: 32rem;
+  /* background: orange; */
+  margin-left: 22rem;
+  /* margin-top: 10px; */
+}
+.text_container {
+  margin-left: 5rem;
+  margin-top: 20px;
+}
+.text_container h3 {
+  font-size: 43px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+.text_container h1 {
+  font-size: 80px;
+  font-weight: 600;
+  color: orange;
+}
+.text_container h5 {
+  font-size: 50px;
+}
+.fa-brands {
+  font-size: 50px;
+  gap: 15px;
+  margin-top: 10px;
+  /* color: orange; */
+}
+.container-fluid {
+  background: #1e1e1f;
+}
+.ABOUT {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  display: block;
+}
+.About_image {
+  height: 34rem;
+  width: 34rem;
+  display: flex;
+}
+.Aboutme {
+  align-items: center;
+  /* background-color: blue; */
+}
+.Aboutme h1 {
+  font-size: 4rem;
+  color: orange;
+  margin-bottom: 24px;
+}
+.Aboutme P {
+  font-size: 1.2rem;
+}
+.btn {
+  width: 200px;
+  height: 50px;
+}
+.Abouttex {
+  border-radius: 2px solid yellow;
+}
+.container {
+  margin-top: 10px;
+  background-color: #1e1e1f;
+  color: white;
+}
+.skill_image {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 540px;
+}
+.card img {
+  max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
